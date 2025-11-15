@@ -13,7 +13,7 @@
 - then compile it back and download
 - if you already have web then enjoy
 - **web part**
-- create mobileapi/login.php
+- create /mobileapi/login.php
 - with this code
 - `<?php
 header('Content-Type: application/json; charset=UTF-8; X-Robots-Tag: noindex'); 
