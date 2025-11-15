@@ -13,4 +13,23 @@
 - then compile it back and download
 - if you already have web then enjoy
 - **web part**
-- 
+- in your website create a folder /games/list with a button that redirects you to  /games/start?placeid=1&userId=1 and attempts to get - -- info from /game/PlaceLauncher.ashx
+- you should see loading screen in your android client now
+- Create A /game/PlaceLauncher.ashx with the following code
+- ```{
+
+    "jobId":"join",
+
+    "status":2,
+
+    "joinScriptUrl":"http://yourdomain.name/Game/yourjoinscripthere",
+
+    "authenticationUrl":"http://yourdomain.name/Login/Negotiate.ashx",
+
+    "authenticationTicket":null,
+
+    "message":null
+
+    
+
+}```
