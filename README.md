@@ -41,4 +41,4 @@ echo(json_encode([
     "authenticationTicket": null,
     "message": null
 }`
-
+- now you can join games
