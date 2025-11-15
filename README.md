@@ -16,7 +16,7 @@
 - in your website create a folder /games/list with a button that redirects you to  /games/start?placeid=1&userId=1 and attempts to get - -- info from /game/PlaceLauncher.ashx
 - you should see loading screen in your android client now
 - Create A /game/PlaceLauncher.ashx with the following code
-- ```json
+
 { 
     "jobId": "join",
     "status": 2,
@@ -25,4 +25,4 @@
     "authenticationTicket": null,
     "message": null
 }
-```
+
