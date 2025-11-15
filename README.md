@@ -17,12 +17,12 @@
 - you should see loading screen in your android client now
 - Create A /game/PlaceLauncher.ashx with the following code
 
-```{ 
+`{ 
     "jobId": "join",
     "status": 2,
     "joinScriptUrl": "http://yourdomain.name/Game/yourjoinscripthere",
     "authenticationUrl": "http://yourdomain.name/Login/Negotiate.ashx",
     "authenticationTicket": null,
     "message": null
-}```
+}`
 
