@@ -13,6 +13,22 @@
 - then compile it back and download
 - if you already have web then enjoy
 - **web part**
+- create mobileapi/login.php
+- with this code
+- `<?php
+header('Content-Type: application/json; charset=UTF-8; X-Robots-Tag: noindex'); 
+echo(json_encode([
+	"Status" => "OK",
+	"UserInfo" => [
+		"UserID" => 1,
+		"UserName" => "UsernameHere",
+		"RobuxBalance" => 0,
+		"TicketsBalance" => 0,
+		"IsAnyBuildersClubMember" => false,
+		"ThumbnailUrl" => "http://yourthumbnail.here/or_this_can_be_a_blank"
+	]
+],JSON_UNESCAPED_SLASHES));
+`
 - in your website create a folder /games/list with a button that redirects you to  /games/start?placeid=1&userId=1 and attempts to get - -- info from /game/PlaceLauncher.ashx
 - you should see loading screen in your android client now
 - Create A /game/PlaceLauncher.ashx with the following code
